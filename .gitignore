@@ -17,3 +17,4 @@ app/build/
 *.apk
 *.aab
 CLAUDE.md
+keystore.properties
