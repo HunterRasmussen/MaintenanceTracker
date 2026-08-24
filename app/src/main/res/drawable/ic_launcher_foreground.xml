@@ -1,0 +1,68 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Design space is a 24x24 unit icon, scaled+centered into the 108x108 adaptive icon canvas. -->
+    <group
+        android:translateX="21"
+        android:translateY="21"
+        android:scaleX="2.75"
+        android:scaleY="2.75">
+
+        <!-- Car body -->
+        <path
+            android:fillColor="#F5F3EE"
+            android:pathData="M5,11.2 L6.4,6.9 A2,2 0 0,1 8.3,5.5 L15.7,5.5 A2,2 0 0,1 17.6,6.9 L19,11.2 L19,16.8 A1,1 0 0,1 18,17.8 L17.2,17.8 A1,1 0 0,1 16.2,16.8 L16.2,16.0 L8.7,16.0 L8.7,16.8 A1,1 0 0,1 7.7,17.8 L6.9,17.8 A1,1 0 0,1 5.9,16.8 Z" />
+
+        <!-- Wheels -->
+        <path
+            android:fillColor="#F5F3EE"
+            android:pathData="M7.6,14.55 A1.35,1.35 0 1,0 7.6,17.25 A1.35,1.35 0 1,0 7.6,14.55 Z" />
+        <path
+            android:fillColor="#F5F3EE"
+            android:pathData="M16.4,14.55 A1.35,1.35 0 1,0 16.4,17.25 A1.35,1.35 0 1,0 16.4,14.55 Z" />
+
+        <!-- Wrench, crossing diagonally over the car -->
+        <group
+            android:rotation="-22"
+            android:translateX="12.5"
+            android:translateY="10.5">
+
+            <!-- Handle -->
+            <path
+                android:fillColor="#F5F3EE"
+                android:strokeColor="#1F3A5F"
+                android:strokeWidth="1"
+                android:pathData="M-5.9,-1.1 L5.9,-1.1 A1.1,1.1 0 0,1 5.9,1.1 L-5.9,1.1 A1.1,1.1 0 0,1 -5.9,-1.1 Z" />
+
+            <!-- Open-end fork (right side) -->
+            <path
+                android:fillColor="#F5F3EE"
+                android:strokeColor="#1F3A5F"
+                android:strokeWidth="1"
+                android:pathData="M7,-2.2 H7.6 A1,1 0 0,1 8.6,-1.2 V1.2 A1,1 0 0,1 7.6,2.2 H7 A1,1 0 0,1 6,1.2 V-1.2 A1,1 0 0,1 7,-2.2 Z" />
+            <path
+                android:fillColor="#F5F3EE"
+                android:strokeColor="#1F3A5F"
+                android:strokeWidth="1"
+                android:pathData="M8.35,-2.9 H10.45 A0.75,0.75 0 0,1 10.45,-1.4 H8.35 A0.75,0.75 0 0,1 8.35,-2.9 Z" />
+            <path
+                android:fillColor="#F5F3EE"
+                android:strokeColor="#1F3A5F"
+                android:strokeWidth="1"
+                android:pathData="M8.35,1.4 H10.45 A0.75,0.75 0 0,1 10.45,2.9 H8.35 A0.75,0.75 0 0,1 8.35,1.4 Z" />
+
+            <!-- Ring / box-end (left side) -->
+            <path
+                android:fillColor="#F5F3EE"
+                android:strokeColor="#1F3A5F"
+                android:strokeWidth="1"
+                android:pathData="M-8.6,-2.9 A2.9,2.9 0 1,0 -8.6,2.9 A2.9,2.9 0 1,0 -8.6,-2.9 Z" />
+            <path
+                android:fillColor="#1F3A5F"
+                android:pathData="M-8.6,-1.45 A1.45,1.45 0 1,0 -8.6,1.45 A1.45,1.45 0 1,0 -8.6,-1.45 Z" />
+        </group>
+    </group>
+</vector>
