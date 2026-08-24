@@ -5,8 +5,18 @@ photos, PDF report export, and local backup/restore. Fully offline — the app r
 `INTERNET` permission, so nothing you enter ever leaves your device except through a backup
 file you explicitly export.
 
-There's no Play Store or F-Droid listing. This is a build-it-yourself, sideload-it-yourself
-app — see below.
+There's no Play Store or F-Droid listing. This is a sideload-it-yourself app.
+
+## Installing
+
+**Easiest: download the signed APK.** Grab `app-release.apk` from the
+[latest release](https://github.com/HunterRasmussen/MaintenanceTracker/releases/latest),
+open it on your phone, and allow installing from that source when prompted. Future releases
+are signed with the same key, so updating just means installing the new APK over the old one
+— your data stays put.
+
+**Or build it yourself from source** — see below if you'd rather not trust a prebuilt binary,
+or want to hack on the app.
 
 ## Building from source
 
